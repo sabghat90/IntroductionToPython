@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 117
-    length: 9
+    length: 29
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 117
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: phrase[:int(len(phrase)/2)]
   text: |
     phrase = """
@@ -58,5 +58,8 @@ files:
 
         test_value()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:20:07 UTC
 record: -1

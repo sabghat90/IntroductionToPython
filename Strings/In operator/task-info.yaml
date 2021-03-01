@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 99
-    length: 9
+    length: 18
     placeholder_text: type here
     initial_state:
       length: 9
       offset: 99
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '''ice'' in ice_cream'
   text: |
     ice_cream = "ice cream"
@@ -57,5 +57,8 @@ files:
         test_window()
         test_ice_cream()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:09:34 UTC
 record: -1

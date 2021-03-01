@@ -4,24 +4,24 @@ files:
   visible: true
   placeholders:
   - offset: 132
-    length: 14
+    length: 2
     placeholder_text: special symbol
     initial_state:
       length: 14
       offset: 132
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '%d'
-  - offset: 160
-    length: 5
+  - offset: 148
+    length: 2
     placeholder_text: years
     initial_state:
       length: 5
       offset: 160
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 17
   text: |
     name = "John"
@@ -67,5 +67,8 @@ files:
         test_window()
         test_window1()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:27:18 UTC
 record: -1

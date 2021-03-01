@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 257
-    length: 30
+    length: 39
     placeholder_text: replace "dino" with "dinosaur"
     initial_state:
       length: 30
       offset: 257
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: animals[-1] = "dinosaur"
   text: |
     animals = ["elephant", "lion", "tiger", "giraffe"]  # create new list
@@ -51,5 +51,8 @@ files:
         test_value()
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:31:50 UTC
 record: -1

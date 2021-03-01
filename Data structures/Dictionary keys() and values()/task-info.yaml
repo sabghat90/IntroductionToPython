@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 208
-    length: 17
+    length: 19
     placeholder_text: phone_book values
     initial_state:
       length: 17
       offset: 208
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: phone_book.values()
   text: |
     phone_book = {"John": 123, "Jane": 234, "Jerard": 345}  # create new dictionary
@@ -43,5 +43,8 @@ files:
         run_common_tests()
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:36:56 UTC
 record: -1

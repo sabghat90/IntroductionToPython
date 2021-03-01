@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 161
-    length: 15
+    length: 13
     placeholder_text: alphabet length
     initial_state:
       length: 15
       offset: 161
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: len(alphabet)
   text: |
     alphabet = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
@@ -37,5 +37,8 @@ files:
         run_common_tests("Use len() function")
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:32:53 UTC
 record: -1

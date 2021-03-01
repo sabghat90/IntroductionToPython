@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 300
-    length: 10
+    length: 15
     placeholder_text: clear list
     initial_state:
       length: 10
       offset: 300
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: animals[:] = []
   text: |
     animals = ["elephant", "lion", "tiger", "giraffe", "monkey", "dog"]  # create new list
@@ -51,5 +51,8 @@ files:
         test_window()
         test_value()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:32:29 UTC
 record: -1

@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 132
-    length: 24
+    length: 28
     placeholder_text: John is not 23 years old
     initial_state:
       length: 24
       offset: 132
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: name == 'John' and age != 23
   text: |
     name = "John"
@@ -39,5 +39,8 @@ files:
         run_common_tests("Use 'and' keyword and != operator")
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:39:11 UTC
 record: -1

@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 236
-    length: 30
+    length: 22
     placeholder_text: is 'fish' in grocery_dict keys
     initial_state:
       length: 30
       offset: 236
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '"fish" in grocery_dict.keys()'
   text: |
     grocery_list = ["fish", "tomato", "apples"]   # create new list
@@ -47,5 +47,8 @@ files:
         test_window()
         test_fish()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:37:51 UTC
 record: -1

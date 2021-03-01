@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 131
-    length: 24
+    length: 20
     placeholder_text: upper cased monty_python
     initial_state:
       length: 24
       offset: 131
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: monty_python.upper()
   text: |
     monty_python = "Monty Python"
@@ -40,5 +40,8 @@ files:
         test_value()
 
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:26:14 UTC
 record: -1

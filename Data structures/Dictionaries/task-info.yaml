@@ -3,15 +3,15 @@ files:
 - name: dicts.py
   visible: true
   placeholders:
-  - offset: 312
-    length: 12
+  - offset: 311
+    length: 18
     placeholder_text: Jane's phone
     initial_state:
       length: 12
       offset: 312
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: phone_book ["Jane"]
   text: |
     # create new dictionary.
@@ -44,5 +44,8 @@ files:
         run_common_tests("Use indexing e.g. dct[key]")
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:36:00 UTC
 record: -1

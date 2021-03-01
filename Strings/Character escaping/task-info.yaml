@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 105
-    length: 4
+    length: 48
     placeholder_text: text
     initial_state:
       length: 4
       offset: 105
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: The name of this ice-cream is "Sweet\'n\'Tasty"
   text: |
     dont_worry = "Don't worry about apostrophes"
@@ -53,5 +53,8 @@ files:
         test_output()
         test_value()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:25:24 UTC
 record: -1

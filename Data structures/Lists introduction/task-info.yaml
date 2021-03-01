@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 70
-    length: 5
+    length: 12
     placeholder_text: slice
     initial_state:
       length: 5
       offset: 70
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: squares[1:4]
   text: |
     squares = [1, 4, 9, 16, 25]   # create new list
@@ -46,5 +46,8 @@ files:
         run_common_tests("Use list slicing lst[index1:index2]")
 
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:29:15 UTC
 record: -1

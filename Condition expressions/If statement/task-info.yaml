@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 236
-    length: 25
+    length: 19
     placeholder_text: check if 'tasks' is empty
     initial_state:
       length: 25
       offset: 236
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'if len(tasks) == 0:'
   text: |
     name = "John"
@@ -55,5 +55,8 @@ files:
         test_window()
         test_len()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:47:42 UTC
 record: -1

@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 108
-    length: 69
+    length: 51
     placeholder_text: '"name" is "Ellis" or not ("name" equal "John" and he is 17
       years old)'
     initial_state:
       length: 69
       offset: 108
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: name is "Ellis" or not (name is "John" and age == 17)
   text: |
     name = "John"
@@ -42,5 +42,8 @@ files:
         run_common_tests("Use 'and', 'or' and 'not' keywords")
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:45:41 UTC
 record: -1

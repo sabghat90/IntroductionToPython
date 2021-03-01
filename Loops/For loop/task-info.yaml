@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 238
-    length: 34
+    length: 23
     placeholder_text: iterate over primes using for loop
     initial_state:
       length: 34
       offset: 238
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'for prime in primes:'
   text: |
     for i in range(5):    # for each number i in range 0-4. range(5) function returns list [0, 1, 2, 3, 4]
@@ -41,5 +41,8 @@ files:
         run_common_tests()
         test_window()
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 01 Mar 2021 20:53:19 UTC
 record: -1
